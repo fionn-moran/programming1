@@ -1,0 +1,178 @@
+<object-stream>
+  <list>
+    <application.Reservation>
+      <reservationID></reservationID>
+      <userID></userID>
+      <facilityID>123</facilityID>
+      <duration></duration>
+    </application.Reservation>
+    <application.Reservation>
+      <reservationID>122</reservationID>
+      <userID>121</userID>
+      <facilityID>123</facilityID>
+      <date resolves-to="java.time.Ser">
+        <byte>3</byte>
+        <int>2020</int>
+        <byte>12</byte>
+        <byte>15</byte>
+      </date>
+      <duration>5</duration>
+    </application.Reservation>
+    <application.Reservation>
+      <reservationID>qwdqwd</reservationID>
+      <userID>efwqfe</userID>
+      <facilityID>efwfde</facilityID>
+      <date resolves-to="java.time.Ser">
+        <byte>3</byte>
+        <int>2020</int>
+        <byte>12</byte>
+        <byte>2</byte>
+      </date>
+      <duration>efwd2q</duration>
+    </application.Reservation>
+    <application.Reservation>
+      <reservationID>qwdqwd</reservationID>
+      <userID>efwqfe</userID>
+      <facilityID>efwfde</facilityID>
+      <date resolves-to="java.time.Ser">
+        <byte>3</byte>
+        <int>2020</int>
+        <byte>12</byte>
+        <byte>2</byte>
+      </date>
+      <duration>efwd2q</duration>
+    </application.Reservation>
+    <application.Reservation>
+      <reservationID>qwdqwd</reservationID>
+      <userID>efwqfe</userID>
+      <facilityID>efwfde</facilityID>
+      <date resolves-to="java.time.Ser">
+        <byte>3</byte>
+        <int>2020</int>
+        <byte>12</byte>
+        <byte>2</byte>
+      </date>
+      <duration>efwd2q</duration>
+    </application.Reservation>
+    <application.Reservation>
+      <reservationID></reservationID>
+      <userID></userID>
+      <facilityID></facilityID>
+      <duration></duration>
+    </application.Reservation>
+    <application.Reservation>
+      <reservationID>jknjnknj</reservationID>
+      <userID>jnknnkjn</userID>
+      <facilityID>nklnlkn</facilityID>
+      <date resolves-to="java.time.Ser">
+        <byte>3</byte>
+        <int>2020</int>
+        <byte>12</byte>
+        <byte>8</byte>
+      </date>
+      <duration>jkkjk</duration>
+    </application.Reservation>
+    <application.Reservation>
+      <reservationID>jnk</reservationID>
+      <userID> n mnm</userID>
+      <facilityID>jnj </facilityID>
+      <duration>jk nj</duration>
+    </application.Reservation>
+    <application.Reservation>
+      <reservationID>jkkjk</reservationID>
+      <userID>jnknnkjn</userID>
+      <facilityID>nklnlkn</facilityID>
+      <date resolves-to="java.time.Ser">
+        <byte>3</byte>
+        <int>2020</int>
+        <byte>12</byte>
+        <byte>8</byte>
+      </date>
+      <duration>jkkjkgrgrt</duration>
+    </application.Reservation>
+    <application.Reservation>
+      <reservationID>fewfcew</reservationID>
+      <userID>ewdcewfc</userID>
+      <facilityID>wecfewf</facilityID>
+      <date resolves-to="java.time.Ser">
+        <byte>3</byte>
+        <int>2020</int>
+        <byte>12</byte>
+        <byte>9</byte>
+      </date>
+      <duration>wce</duration>
+    </application.Reservation>
+    <application.Reservation>
+      <reservationID>kjwdncecw</reservationID>
+      <userID>cjwkdcnw</userID>
+      <facilityID>jkwcnjwc</facilityID>
+      <date resolves-to="java.time.Ser">
+        <byte>3</byte>
+        <int>2020</int>
+        <byte>12</byte>
+        <byte>8</byte>
+      </date>
+      <duration>kldwnmclkw</duration>
+    </application.Reservation>
+    <application.Reservation>
+      <reservationID>jkncwcvw</reservationID>
+      <userID>cejkwjcwncv</userID>
+      <facilityID>cklwcew</facilityID>
+      <date resolves-to="java.time.Ser">
+        <byte>3</byte>
+        <int>2020</int>
+        <byte>12</byte>
+        <byte>16</byte>
+      </date>
+      <duration>dewcfw</duration>
+    </application.Reservation>
+    <application.Reservation>
+      <reservationID>jkncwjkeqw</reservationID>
+      <userID>c ckwnckl</userID>
+      <facilityID>kkdsnlc</facilityID>
+      <date resolves-to="java.time.Ser">
+        <byte>3</byte>
+        <int>2020</int>
+        <byte>12</byte>
+        <byte>23</byte>
+      </date>
+      <duration>dsnklsnckd</duration>
+    </application.Reservation>
+    <application.Reservation>
+      <reservationID>546</reservationID>
+      <userID>1213ff3</userID>
+      <facilityID>123iknvf</facilityID>
+      <date resolves-to="java.time.Ser">
+        <byte>3</byte>
+        <int>2020</int>
+        <byte>12</byte>
+        <byte>23</byte>
+      </date>
+      <duration>5cm,e,m</duration>
+    </application.Reservation>
+    <application.Reservation>
+      <reservationID>12</reservationID>
+      <userID>fm201</userID>
+      <facilityID>2</facilityID>
+      <date resolves-to="java.time.Ser">
+        <byte>3</byte>
+        <int>2020</int>
+        <byte>12</byte>
+        <byte>16</byte>
+      </date>
+      <duration>3</duration>
+    </application.Reservation>
+    <application.Reservation>
+      <reservationID>dw2wqdq3</reservationID>
+      <userID>dwq2d3w2</userID>
+      <facilityID>dwq2d3</facilityID>
+      <date resolves-to="java.time.Ser">
+        <byte>3</byte>
+        <int>2020</int>
+        <byte>12</byte>
+        <byte>15</byte>
+      </date>
+      <duration>dw2q2q3</duration>
+    </application.Reservation>
+  </list>
+</object-stream>

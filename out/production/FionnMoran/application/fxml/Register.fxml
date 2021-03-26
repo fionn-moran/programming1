@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane stylesheets="@../css.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controllers.RegisterController">
+   <children>
+      <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutY="-6.0" prefHeight="64.0" prefWidth="600.0" text="Enter Your Details To Register" textAlignment="CENTER" />
+                  <AnchorPane layoutX="67.0" layoutY="-92.0" prefHeight="200.0" prefWidth="200.0" />
+                  <GridPane layoutX="1.0" layoutY="58.0" prefHeight="256.0" prefWidth="600.0" AnchorPane.bottomAnchor="-114.0" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="-1.0" AnchorPane.topAnchor="58.0">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Label text="First Name:" />
+                        <Label text="Last Name:" GridPane.rowIndex="1" />
+                        <Label text="Role:" GridPane.rowIndex="6" />
+                        <Label text="Phone Number:" GridPane.rowIndex="3" />
+                        <Label text="Email:" GridPane.rowIndex="4" />
+                        <Label text="User Type:" GridPane.rowIndex="5" />
+                        <Label text="Password:" GridPane.rowIndex="7" />
+                        <Label text="Confirm Password:" GridPane.rowIndex="8" />
+                        <TextField fx:id="foreName" promptText="Enter your first name" GridPane.columnIndex="1" />
+                        <TextField fx:id="surName" promptText="Enter your last name" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <TextField fx:id="username" promptText="Create a username" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                        <TextField fx:id="mobileNo" promptText="Enter your mobile number" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                        <TextField fx:id="email" promptText="Enter yout email" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                        <PasswordField fx:id="password" promptText="Minimum of 5 characters" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                        <PasswordField fx:id="repeat_password" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+                        <Label text="Username:" GridPane.rowIndex="2" />
+                        <TextField fx:id="role" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                        <ChoiceBox fx:id="userType" prefHeight="27.0" prefWidth="299.0" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                            <items>
+                                <FXCollections fx:factory="observableArrayList">
+                                    <String fx:id="Manager" fx:value="Manager" />
+                                    <String fx:id="User" fx:value="User" />
+                                </FXCollections>
+                            </items>
+                        </ChoiceBox>
+                     </children>
+                  </GridPane>
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+      <AnchorPane layoutX="298.0" layoutY="345.0" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="298.0" AnchorPane.rightAnchor="2.0" AnchorPane.topAnchor="345.0">
+         <children>
+            <TextArea fx:id="txtAreaFeedback" layoutX="-300.0" layoutY="87.0" prefHeight="138.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="-300.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="87.0" />
+            <Button alignment="CENTER" contentDisplay="CENTER" layoutY="21.0" mnemonicParsing="false" onAction="#handleRegisterBtn" prefHeight="66.0" prefWidth="300.0" text="Register" textAlignment="CENTER" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="7.0" layoutY="371.0" prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <Button alignment="CENTER" contentDisplay="CENTER" layoutX="-9.0" layoutY="-4.0" mnemonicParsing="false" onAction="#handleHomeBtn" prefHeight="64.0" prefWidth="300.0" text="Home" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
